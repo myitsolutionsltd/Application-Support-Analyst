@@ -1,0 +1,27 @@
+{
+    "version": 3,
+    "mappings": "AQAA,OAAO,CAAC,qIAAI,CHAZ,AAAA,IAAI,AAAC,CACJ,SAAS,CAAE,KAAK,CAChB,AAED,AAAA,IAAI,AAAC,CACJ,UAAU,CAAE,UAAU,CACtB,UAAU,CAAE,MAAM,CAClB,ACPD,AAAA,CAAC,CACD,CAAC,AAAA,QAAQ,CACT,CAAC,AAAA,MAAM,AAAC,CACP,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,OAAO,CACnB",
+    "sources": [
+        "../../scss/style.scss",
+        "../../scss/abstract/_functions.scss",
+        "../../scss/abstract/_minmix.scss",
+        "../../scss/abstract/_variables.scss",
+        "../../scss/base/_animation.scss",
+        "../../scss/base/_base.scss",
+        "../../scss/base/_reset.scss",
+        "../../scss/base/_responsive.scss",
+        "../../scss/base/_typography.scss",
+        "../../scss/base/_utilities.scss",
+        "../../scss/components/_button.scss",
+        "../../scss/layout/_footer.scss",
+        "../../scss/layout/_forms.scss",
+        "../../scss/layout/_grid.scss",
+        "../../scss/layout/_header.scss",
+        "../../scss/layout/_navigation.scss",
+        "../../scss/pages/_about.scss",
+        "../../scss/pages/_contact.scss",
+        "../../scss/pages/_home.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
