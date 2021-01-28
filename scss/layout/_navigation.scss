@@ -1,10 +1,11 @@
 .nav {
-	color: $color-primary;
 	background-color: $color-white;
+	color: $color-primary;
 	position: sticky;
 	top: 0;
 	left: 0;
 	z-index: 5;
+
 	&-container {
 		display: flex;
 		justify-content: space-between;
@@ -12,23 +13,23 @@
 	}
 
 	&__logo {
-		padding: 2rem;
-		font-size: 3rem;
+		padding: 1rem;
 		text-transform: uppercase;
 		font-weight: 700;
+		margin: 1rem 0;
+		font-size: 3rem;
+		font-weight: bold;
 	}
 
 	&__list {
 		display: flex;
 		justify-content: space-evenly;
-		width: 30%;
 	}
 
 	&__items a {
 		color: $color-primary;
 		text-transform: uppercase;
-		padding: 3rem;
-		margin: 1rem;
+		padding: 3rem 2rem;
 
 		&:hover {
 			background-color: $color-primary;
