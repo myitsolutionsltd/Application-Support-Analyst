@@ -30,6 +30,7 @@
 
 		&__content {
 			width: 100% !important;
+			padding-bottom: 2rem;
 		}
 
 		&__img {
@@ -50,5 +51,9 @@
 			width: 100%;
 			margin-bottom: 2rem;
 		}
+	}
+
+	.features-container {
+		justify-content: flex-end;
 	}
 }

@@ -1,0 +1,23 @@
+.form {
+	display: flex;
+	&__email {
+		margin-right: 2rem;
+		padding: 1rem;
+		border: none;
+		box-shadow: $box-shadow;
+	}
+	&__button {
+		padding: 1rem 2rem;
+		box-shadow: $box-shadow;
+		background-color: $color-primary;
+		color: $color-white;
+		border: 1px solid $color-white;
+		cursor: pointer;
+		font-weight: 700;
+		transition: 0.5s all;
+		&:hover {
+			background-color: #fff;
+			color: $color-primary;
+		}
+	}
+}

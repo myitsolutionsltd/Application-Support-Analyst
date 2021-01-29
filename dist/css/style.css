@@ -38,7 +38,8 @@ a {
 }
 @media (max-width: 768px) {
 	h1 {
-		font-size: 3rem;
+		font-size: 4rem;
+		margin: 2rem 0;
 	}
 	.nav-container {
 		flex-direction: column;
@@ -65,13 +66,25 @@ a {
 	.header__img {
 		display: none;
 	}
+	.header__image--resp {
+		width: 95% !important;
+		display: block !important;
+		margin-bottom: 2rem;
+	}
+	.form {
+		flex-direction: column;
+	}
+	.form__email {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
 }
 .wrapper {
 	margin: 0 auto;
 	max-width: 130rem;
 }
 .header {
-	height: 95vh;
+	min-height: 95vh;
 	background: linear-gradient(to bottom right, rgba(45, 88, 236, 0.7), #030303), url(../img/hero.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -83,7 +96,6 @@ a {
 	justify-content: space-around;
 }
 .header__content {
-	padding: 2rem;
 	width: 60%;
 	display: flex;
 	flex-direction: column;
@@ -114,7 +126,6 @@ a {
 }
 .form {
 	display: flex;
-	padding: 0 4rem;
 }
 .form__email {
 	margin-right: 2rem;
