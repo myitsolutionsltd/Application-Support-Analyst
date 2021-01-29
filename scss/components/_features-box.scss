@@ -7,7 +7,7 @@
 .feature-box {
 	background-color: $color-primary;
 	box-shadow: $box-shadow;
-	flex: 0 1 28%;
+	width: 32rem;
 	transition: 0.5s transform;
 	border-radius: 2.1rem 2.1rem 0 0;
 	margin: 0 2rem 4rem;
@@ -18,7 +18,7 @@
 
 	&__img {
 		background-size: cover;
-		height: 20rem;
+		height: 24rem;
 		margin-bottom: 2rem;
 		border-radius: 2rem 2rem 0 0;
 
