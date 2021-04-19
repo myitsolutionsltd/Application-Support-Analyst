@@ -1,20 +1,31 @@
-<!doctype html>
-<title>Site Maintenance</title>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="landing.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:,500i,500" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+<title>Document</title>
+</head>
 
-<article>
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div>
-        <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:#">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
-        <p>&mdash; The Team</p>
+<body>
+  <div class="cont_principal">
+    <div class="cont_error">
 
-       <a href="index.html"<p>Click here to go back</p></a>
+      <h1>Oops</h1>
+      <p>The Page you're looking for isn't here.</p>
+      <a href="index.html">Go Back Here</a>
     </div>
-</article>
+    <div class="cont_aura_1"></div>
+    <div class="cont_aura_2"></div>
+  </div>
+</body>
+<script>
+  window.onload = function(){
+document.querySelector('.cont_principal').className= "cont_principal cont_error_active";  
+  
+}
+</script>
+
+</html>
